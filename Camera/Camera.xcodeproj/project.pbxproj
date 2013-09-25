@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C7629017F2801B003AED5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C7628F17F2801B003AED5C /* UIKit.framework */; };
+		00C7629217F2801B003AED5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C7629117F2801B003AED5C /* Foundation.framework */; };
+		00C7629417F2801B003AED5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C7629317F2801B003AED5C /* CoreGraphics.framework */; };
+		00C7629A17F2801B003AED5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00C7629817F2801B003AED5C /* InfoPlist.strings */; };
+		00C7629C17F2801B003AED5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C7629B17F2801B003AED5C /* main.m */; };
+		00C762A017F2801C003AED5C /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C7629F17F2801C003AED5C /* BIDAppDelegate.m */; };
+		00C762A317F2801C003AED5C /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C762A217F2801C003AED5C /* BIDViewController.m */; };
+		00C762A617F2801C003AED5C /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C762A417F2801C003AED5C /* BIDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00C7628B17F2801B003AED5C /* Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C7628F17F2801B003AED5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00C7629117F2801B003AED5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00C7629317F2801B003AED5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00C7629717F2801B003AED5C /* Camera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Camera-Info.plist"; sourceTree = "<group>"; };
+		00C7629917F2801B003AED5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00C7629B17F2801B003AED5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00C7629D17F2801B003AED5C /* Camera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Camera-Prefix.pch"; sourceTree = "<group>"; };
+		00C7629E17F2801C003AED5C /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		00C7629F17F2801C003AED5C /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		00C762A117F2801C003AED5C /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		00C762A217F2801C003AED5C /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		00C762A517F2801C003AED5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00C7628817F2801B003AED5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C7629017F2801B003AED5C /* UIKit.framework in Frameworks */,
+				00C7629217F2801B003AED5C /* Foundation.framework in Frameworks */,
+				00C7629417F2801B003AED5C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C7628017F2801B003AED5C = {
+			isa = PBXGroup;
+			children = (
+				00C7629517F2801B003AED5C /* Camera */,
+				00C7628E17F2801B003AED5C /* Frameworks */,
+				00C7628C17F2801B003AED5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00C7628C17F2801B003AED5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C7628B17F2801B003AED5C /* Camera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C7628E17F2801B003AED5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00C7628F17F2801B003AED5C /* UIKit.framework */,
+				00C7629117F2801B003AED5C /* Foundation.framework */,
+				00C7629317F2801B003AED5C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00C7629517F2801B003AED5C /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				00C7629E17F2801C003AED5C /* BIDAppDelegate.h */,
+				00C7629F17F2801C003AED5C /* BIDAppDelegate.m */,
+				00C762A117F2801C003AED5C /* BIDViewController.h */,
+				00C762A217F2801C003AED5C /* BIDViewController.m */,
+				00C762A417F2801C003AED5C /* BIDViewController.xib */,
+				00C7629617F2801B003AED5C /* Supporting Files */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		00C7629617F2801B003AED5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00C7629717F2801B003AED5C /* Camera-Info.plist */,
+				00C7629817F2801B003AED5C /* InfoPlist.strings */,
+				00C7629B17F2801B003AED5C /* main.m */,
+				00C7629D17F2801B003AED5C /* Camera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00C7628A17F2801B003AED5C /* Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C762A917F2801C003AED5C /* Build configuration list for PBXNativeTarget "Camera" */;
+			buildPhases = (
+				00C7628717F2801B003AED5C /* Sources */,
+				00C7628817F2801B003AED5C /* Frameworks */,
+				00C7628917F2801B003AED5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Camera;
+			productName = Camera;
+			productReference = 00C7628B17F2801B003AED5C /* Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00C7628217F2801B003AED5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 00C7628517F2801B003AED5C /* Build configuration list for PBXProject "Camera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00C7628017F2801B003AED5C;
+			productRefGroup = 00C7628C17F2801B003AED5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00C7628A17F2801B003AED5C /* Camera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00C7628917F2801B003AED5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C7629A17F2801B003AED5C /* InfoPlist.strings in Resources */,
+				00C762A617F2801C003AED5C /* BIDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00C7628717F2801B003AED5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C7629C17F2801B003AED5C /* main.m in Sources */,
+				00C762A017F2801C003AED5C /* BIDAppDelegate.m in Sources */,
+				00C762A317F2801C003AED5C /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00C7629817F2801B003AED5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C7629917F2801B003AED5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00C762A417F2801C003AED5C /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C762A517F2801C003AED5C /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00C762A717F2801C003AED5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00C762A817F2801C003AED5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00C762AA17F2801C003AED5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Camera/Camera-Prefix.pch";
+				INFOPLIST_FILE = "Camera/Camera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00C762AB17F2801C003AED5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Camera/Camera-Prefix.pch";
+				INFOPLIST_FILE = "Camera/Camera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00C7628517F2801B003AED5C /* Build configuration list for PBXProject "Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C762A717F2801C003AED5C /* Debug */,
+				00C762A817F2801C003AED5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00C762A917F2801C003AED5C /* Build configuration list for PBXNativeTarget "Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C762AA17F2801C003AED5C /* Debug */,
+				00C762AB17F2801C003AED5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00C7628217F2801B003AED5C /* Project object */;
+}
