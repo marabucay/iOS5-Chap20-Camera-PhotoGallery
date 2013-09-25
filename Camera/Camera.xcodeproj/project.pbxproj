@@ -15,6 +15,8 @@
 		00C762A017F2801C003AED5C /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C7629F17F2801C003AED5C /* BIDAppDelegate.m */; };
 		00C762A317F2801C003AED5C /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C762A217F2801C003AED5C /* BIDViewController.m */; };
 		00C762A617F2801C003AED5C /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C762A417F2801C003AED5C /* BIDViewController.xib */; };
+		00C762AD17F28079003AED5C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C762AC17F28079003AED5C /* MediaPlayer.framework */; };
+		00C762AF17F28082003AED5C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C762AE17F28082003AED5C /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		00C762A117F2801C003AED5C /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
 		00C762A217F2801C003AED5C /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		00C762A517F2801C003AED5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		00C762AC17F28079003AED5C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		00C762AE17F28082003AED5C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C762AF17F28082003AED5C /* MobileCoreServices.framework in Frameworks */,
+				00C762AD17F28079003AED5C /* MediaPlayer.framework in Frameworks */,
 				00C7629017F2801B003AED5C /* UIKit.framework in Frameworks */,
 				00C7629217F2801B003AED5C /* Foundation.framework in Frameworks */,
 				00C7629417F2801B003AED5C /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +73,8 @@
 		00C7628E17F2801B003AED5C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00C762AE17F28082003AED5C /* MobileCoreServices.framework */,
+				00C762AC17F28079003AED5C /* MediaPlayer.framework */,
 				00C7628F17F2801B003AED5C /* UIKit.framework */,
 				00C7629117F2801B003AED5C /* Foundation.framework */,
 				00C7629317F2801B003AED5C /* CoreGraphics.framework */,
